@@ -1,0 +1,37 @@
+/* public/styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Custom styles */
+  .header {
+    background-color: #008000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .game-board {
+    border: 2px solid #008000;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .bingo-card {
+    border: 2px solid #008000;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add more custom styles as needed */
+  

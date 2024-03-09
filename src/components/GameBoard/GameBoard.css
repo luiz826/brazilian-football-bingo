@@ -1,0 +1,30 @@
+/* GameBoard/GameBoard.css */
+
+.game-board {
+    border: 2px solid #008000;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+    .game-board h2 {
+        margin-top: 0;
+    }
+    
+    .numbers-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+    
+    .number {
+        border: 1px solid #008000;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .number.called {
+        background-color: #008000;
+        color: white;
+    }
+    
